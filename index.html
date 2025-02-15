@@ -115,6 +115,29 @@
         padding: 10px 0;
         margin-top: 20px;
       }
+
+      /* Additional styles for new sections */
+      .section-content {
+        margin-top: 20px;
+      }
+      .section-content ul {
+        list-style-type: disc;
+        margin-left: 20px;
+      }
+      .section-content li {
+        margin-bottom: 10px;
+      }
+
+      /* Projects Section */
+      .project-item {
+        margin-bottom: 20px;
+      }
+      .project-item h3 {
+        margin-bottom: 5px;
+      }
+      .project-item p {
+        margin-top: 0;
+      }
     </style>
   </head>
   <body>
@@ -137,7 +160,7 @@
     <div class="container">
       <div class="profile-section">
         <div class="profile-image">
-          <img src="images/profile.jpg" alt="Asif Haider" />
+          <img src="images/profile.jpg" alt="Irfan Gazi" />
           <div class="profile-links">
             <a href="mailto:irfangazi11805061@gmail.com">Email</a>&nbsp;/&nbsp;
             <a href="data\CV_Irfan Gazi_Fall 2025 .pdf">CV</a>&nbsp;/&nbsp;
@@ -148,7 +171,7 @@
         </div>
         <div class="profile-text">
           <p>
-            Hi, I am <strong>Asif Haider</strong> from Dhaka,
+            Hi, I am <strong>Irfan Gazi</strong> from Dhaka,
             <strong>Bangladesh</strong>. I am a Computer Science student with a
             passion for research and technology.
           </p>
@@ -178,16 +201,6 @@
               Ophthalmic Biomarker Detection!
             </li>
             <li>
-              <strong>October, 2023:</strong> Won the
-              <a href="#">IEEE VIP (Video and Image Processing) Cup 2023</a> on
-              Ophthalmic Biomarker Detection!
-            </li>
-            <li>
-              <strong>October, 2023:</strong> Won the
-              <a href="#">IEEE VIP (Video and Image Processing) Cup 2023</a> on
-              Ophthalmic Biomarker Detection!
-            </li>
-            <li>
               <strong>August, 2023:</strong> Hosted
               <a href="#">Deep Learning Sprint 2.0</a> competition as a part of
               BUET CSE Fest 2023 in partnership with Bengali.AI.
@@ -202,21 +215,6 @@
               attend the <a href="#">SC22 conference</a> with ACM HPC Immersion
               Travel Grant. Met Turing Award laureate
               <a href="#">Jack Dongarra</a>! [<a href="#">Details</a>]
-            </li>
-            <li>
-              <strong>October, 2023:</strong> Won the
-              <a href="#">IEEE VIP (Video and Image Processing) Cup 2023</a> on
-              Ophthalmic Biomarker Detection!
-            </li>
-            <li>
-              <strong>October, 2023:</strong> Won the
-              <a href="#">IEEE VIP (Video and Image Processing) Cup 2023</a> on
-              Ophthalmic Biomarker Detection!
-            </li>
-            <li>
-              <strong>October, 2023:</strong> Won the
-              <a href="#">IEEE VIP (Video and Image Processing) Cup 2023</a> on
-              Ophthalmic Biomarker Detection!
             </li>
           </ul>
         </div>
@@ -258,9 +256,116 @@
           </p>
         </div>
       </section>
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="section-content">
+          <div class="project-item">
+            <h3>Fine-Grained Radiology Report Generation</h3>
+            <p>
+              Developed a multi-modal LLM-based system for generating detailed
+              radiology reports from medical images.
+            </p>
+          </div>
+          <div class="project-item">
+            <h3>Ophthalmic Biomarker Detection</h3>
+            <p>
+              Implemented a deep learning model to detect biomarkers in
+              ophthalmic images, winning the IEEE VIP Cup 2023.
+            </p>
+          </div>
+          <div class="project-item">
+            <h3>Deep Learning Sprint 2.0</h3>
+            <p>
+              Organized and hosted a deep learning competition as part of BUET
+              CSE Fest 2023 in collaboration with Bengali.AI.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section id="education">
+        <h2>Education</h2>
+        <div class="section-content">
+          <ul>
+            <li>
+              <strong>BSc in Computer Science and Engineering</strong><br />
+              Bangladesh University of Engineering and Technology (BUET)<br />
+              2019 - 2024<br />
+              CGPA: 3.88/4.00
+            </li>
+            <li>
+              <strong>Higher Secondary School Certificate (HSC)</strong><br />
+              Notre Dame College, Dhaka, Bangladesh<br />
+              2016 - 2018<br />
+              GPA: 5.00/5.00
+            </li>
+            <li>
+              <strong>Secondary School Certificate (SSC)</strong><br />
+              Motijheel Model School and College, Dhaka, Bangladesh<br />
+              2006 - 2016<br />
+              GPA: 5.00/5.00
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Work Experience Section -->
+      <section id="work">
+        <h2>Work Experience</h2>
+        <div class="section-content">
+          <ul>
+            <li>
+              <strong>Lecturer (Full-time)</strong><br />
+              Department of Computer Science and Engineering (CSE), BUET<br />
+              2024 - Present
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Honors and Awards Section -->
+      <section id="honors">
+        <h2>Honors and Awards</h2>
+        <div class="section-content">
+          <ul>
+            <li>
+              <strong>IEEE VIP Cup 2023</strong><br />
+              Won the IEEE VIP (Video and Image Processing) Cup 2023 on
+              Ophthalmic Biomarker Detection.
+            </li>
+            <li>
+              <strong>RISE-BUET Research Grant 2023</strong><br />
+              Awarded the RISE-BUET Internal Student Research Grant for
+              undergraduate thesis project.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Leadership Section -->
+      <section id="leadership">
+        <h2>Leadership</h2>
+        <div class="section-content">
+          <ul>
+            <li>
+              <strong>Vice-chairperson (Strategy)</strong><br />
+              IEEE Computer Society BUET Student Branch Chapter<br />
+              March 2023 - Present
+            </li>
+            <li>
+              <strong>Organizer</strong><br />
+              Deep Learning Sprint 2.0, BUET CSE Fest 2023<br />
+              August 2023
+            </li>
+          </ul>
+        </div>
+      </section>
     </div>
     <footer>
-      <p>&copy; 2025 Md. Asif Haider. All rights reserved.</p>
+      <p>&copy; 2025 Irfan Gazi. All rights reserved.</p>
     </footer>
   </body>
 </html>
